@@ -1,0 +1,73 @@
+.skills {
+     background-color: #3d3d3d;
+     color: #fff;
+
+}
+
+.skills .left {
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .left h4 {
+     margin: 1rem;
+     font-size: 1.5rem;
+
+}
+
+.skills .left hr {
+     width: 100%;
+     text-align: center;
+     position: relative;
+    font-weight: 900;
+     color: #fff;
+     transform: scaleY(2);
+
+}
+
+.skills .left ul {
+     text-align: left;
+     list-style: none;
+  
+
+}
+
+.skills .left ul li {
+     margin: 0.7rem;
+     list-style: none;
+     font-size: 21px;
+}
+
+.skills .right {}
+
+.skill {
+     margin: 1rem;
+     position: relative;
+
+}
+
+.skill span {
+     text-align: center;
+     height: 100%;
+     padding: 5px;
+     width: 20%;
+     background-color: #959188;
+}
+
+.skill .bar {
+     position: relative;
+     display: flex;
+     align-items: center;
+     background-color: #fff;
+     overflow: hidden;
+}
+
+.skills .skill .bar .fill {
+     background-color: #575757;
+
+
+     height: 34px;
+   
+}

@@ -1,0 +1,23 @@
+.portfolio .project{
+     height: 250px;
+     color: #fff;
+     font-size: 1.5rem;
+ position: relative;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+}
+.portfolio .project::after{
+    content: "";
+    color: #fff;
+    margin-top: 10px;
+  width: 40%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.portfolio h1{
+     font-size: 3rem;
+     text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.62);
+}

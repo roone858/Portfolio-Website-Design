@@ -1,0 +1,12 @@
+.main-component{
+     min-height: 80vh;
+     background-image: url("../assets/bg.PNG");
+     display: flex;
+     align-items: center;
+}
+.main-content {
+     color: white;
+}
+.main-content >*{
+     margin-top: 2rem;
+}
