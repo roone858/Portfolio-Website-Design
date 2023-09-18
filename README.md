@@ -1,7 +1,5 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+The design is taken from [Behance] (https://www.behance.net/gallery/93356117 Web-Developer-Designer-Portfolio-Website-Design?tracking_source=search_projects|web+developer)
 ## Available Scripts
 
 In the project directory, you can run:
