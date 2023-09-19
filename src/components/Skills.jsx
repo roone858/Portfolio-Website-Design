@@ -1,8 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/skills.css";
 import { Skill } from "./reusable/Skill";
 
 export const Skills = () => {
+  const skills = [
+    {
+      name: "Html",
+      value: "50%",
+    },
+    {
+      name: "Css",
+      value: "70%",
+    },
+    {
+      name: "Bootstrap",
+      value: "30%",
+    },
+    {
+      name: "JavaScript",
+      value: "40%",
+    },
+    {
+      name: "Node.js",
+      value: "80%",
+    },
+    {
+      name: "TypeScript",
+      value: "50%",
+    },
+  ];
   return (
     <section className="skills ">
       <div className="container py-5 ">
@@ -35,13 +61,9 @@ export const Skills = () => {
             </div>
             <div className="col-6">
               <div className="right">
-                <Skill name="Html" value="50%" />
-                <Skill name="Css" value="10%" />
-                <Skill name="BootStrap" value="40%" />
-                <Skill name="JavaScript" value="50%" />
-                <Skill name="TypeScript" value="50%" />
-                <Skill name="AWS" value="30%" />
-                <Skill name="Photoshop" value="50%" />
+                {skills.map((skill) => (
+                  <Skill name={skill.name} value={skill.value} />
+                ))}
               </div>
             </div>
           </div>
