@@ -3,7 +3,7 @@
 # Portfolio Website Design with React and Bootstrap
 
 The design is taken from [Behance](https://www.behance.net/gallery/93356117Web-Developer-Designer-Portfolio-Website-Design?tracking_source=search_projects|web+developer)
-![Screenshot 1](./assets/screenshot.PNG)
+![Screenshot 1](assets/screenshot.PNG)
 This project is a portfolio website built using React and Bootstrap. It allows you to showcase your work, skills, and personal information in a visually appealing way.
 
 ## Table of Contents
